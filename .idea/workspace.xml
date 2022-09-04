@@ -5,11 +5,568 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f989ca9e-b45b-4380-a7f1-7b18ededb729" name="Changes" comment="Init Commit" />
+    <list default="true" id="f989ca9e-b45b-4380-a7f1-7b18ededb729" name="Changes" comment="Init Commit">
+      <change afterPath="$PROJECT_DIR$/app/sampledata/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/nasapictureapp/MainApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/nasapictureapp/data/model/NasaPicturesListModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/nasapictureapp/utils/DataUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_no_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/file-changes/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/1x6gz7rart26bs5t4nt9rq9cf/1x6gz7rart26bs5t4nt9rq9cf.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/1x6gz7rart26bs5t4nt9rq9cf/cp_proj/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/1x6gz7rart26bs5t4nt9rq9cf/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/25jjf17qgqb3k6e96t41d13fz/25jjf17qgqb3k6e96t41d13fz.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/25jjf17qgqb3k6e96t41d13fz/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/25jjf17qgqb3k6e96t41d13fz/init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/25jjf17qgqb3k6e96t41d13fz/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/2p9phheubxuenakb5ptmpu23k/2p9phheubxuenakb5ptmpu23k.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/2p9phheubxuenakb5ptmpu23k/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/2p9phheubxuenakb5ptmpu23k/init/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/43k22bcq1561t2osgbg51lsko.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure1$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure1$_closure4$_closure7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure1$_closure4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure1$_closure5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure1$_closure6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_$_run_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/43k22bcq1561t2osgbg51lsko/proj/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5ois56n5sbazbs7i8orwq9uoe/5ois56n5sbazbs7i8orwq9uoe.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5ois56n5sbazbs7i8orwq9uoe/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5ois56n5sbazbs7i8orwq9uoe/proj/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5ois56n5sbazbs7i8orwq9uoe/proj/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5z4xdq38g7aioq9fxc9e4nrt2/5z4xdq38g7aioq9fxc9e4nrt2.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5z4xdq38g7aioq9fxc9e4nrt2/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/5z4xdq38g7aioq9fxc9e4nrt2/cp_init/_BuildScript_$_run_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/6eznyuvs205d9buui9txg7qnb/6eznyuvs205d9buui9txg7qnb.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/6eznyuvs205d9buui9txg7qnb/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/7vb0904ln8vlc65g4q4ojnd4g.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/init/JetGradlePlugin$_apply_closure1$_closure2$_closure3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/init/JetGradlePlugin$_apply_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/init/JetGradlePlugin$_apply_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/init/JetGradlePlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/init/RegistryProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/init/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vb0904ln8vlc65g4q4ojnd4g/metadata/metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vystcs655udi91uix7us8c1z/7vystcs655udi91uix7us8c1z.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vystcs655udi91uix7us8c1z/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vystcs655udi91uix7us8c1z/cp_init/_BuildScript_$_run_closure1$_closure2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/7vystcs655udi91uix7us8c1z/cp_init/_BuildScript_$_run_closure1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/8whc9wv8csaz8qt72nb8shmkq/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/7.3.3/scripts/c9qk2ciknl2gfq4nydqakroxu/settings/_BuildScript_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/00534200db7b6f37df612bc2b58efe80/gradle-api-impldep-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/00534200db7b6f37df612bc2b58efe80/gradle-api-impldep-7.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/015aefc416db60dc13f958e63a6d5a29/flatbuffers-java-1.12.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/017872ea7f7602a9e946435c1dc715e2/jna-platform-5.6.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/03fdcfb8bf8722855fd84bc3ff56cd35/asm-tree-9.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/049f61da75d7aa477e242654630f6c74/kotlin-gradle-plugin-model-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/049f61da75d7aa477e242654630f6c74/kotlin-gradle-plugin-model-1.6.10.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/053b8365e05d80fc75ed309fa34f0759/ddmlib-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/053b8365e05d80fc75ed309fa34f0759/ddmlib-30.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/05ee2b847d70e305525c4c839c99ce79/markdown-jvm-0.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/05ee2b847d70e305525c4c839c99ce79/markdown-jvm-0.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/05f9e66dab90a71b3129ec4c794822a0/jakarta.activation-api-1.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/05f9e66dab90a71b3129ec4c794822a0/jakarta.activation-api-1.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/0675e7e0e7de209dec0b2450af6bfecd/annotations-4.1.1.4.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/068727224185dbaf6de1ff10e29983d2/kotlin-daemon-embeddable-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/082a5918ae0a5c928d080bbccc1e5bbb/jackson-module-kotlin-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/082a5918ae0a5c928d080bbccc1e5bbb/jackson-module-kotlin-2.11.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/0a9825818c0babedc775412d2cc6d1cd/j2objc-annotations-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/0f174a1ea64225730abad1043bb4c717/kotlin-stdlib-common-1.5.31.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/0f770cde46e7f947e8fe1034d396eca2/jsoup-1.13.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/0f770cde46e7f947e8fe1034d396eca2/jsoup-1.13.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/122190c699f2d01027c3750f315c1253/tensorflow-lite-metadata-0.1.0-rc2.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/13c1399092d079ff491bdfa56ed47993/kotlin-util-klib-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/17055b3383087f11c6ed5496430167f0/asm-9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/17055b3383087f11c6ed5496430167f0/asm-9.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/1862f14816061e4ffb656ef7f339758f/kotlin-scripting-compiler-embeddable-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/1b32c9f0b773489091e0fc3befc87236/tracker-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/24db87434f85e4b13ddb0f9d58af4586/kotlin-scripting-jvm-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/26c81616137ff99dbcb6a40f39fb4b44/zipflinger-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/28c84b281c664df870baf8d887e38db8/kotlin-scripting-common-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/28c84b281c664df870baf8d887e38db8/kotlin-scripting-common-1.6.10.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/299e39178d10c5dc1a91896d928d046d/jetifier-processor-1.0.0-beta09.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/299e39178d10c5dc1a91896d928d046d/jetifier-processor-1.0.0-beta09.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2d11a7b5d40c502c0f5cd643f5ed1227/transform-api-2.0.0-deprecated-use-gradle-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2d11a7b5d40c502c0f5cd643f5ed1227/transform-api-2.0.0-deprecated-use-gradle-api.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2d9c546fa56cf94071610ba92b69c36d/xercesImpl-2.12.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2da59fd74462b621fd03537e7a9486f5/kotlin-stdlib-1.5.10-release-931.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2da59fd74462b621fd03537e7a9486f5/kotlin-stdlib-1.5.10-release-931.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2ecb8bd1811490dbdfe99bd4442c69ba/json-20180813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2ecb8bd1811490dbdfe99bd4442c69ba/json-20180813.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2f0317f12d54d6c10096ba1dbae69156/tink-1.3.0-rc2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2f0317f12d54d6c10096ba1dbae69156/tink-1.3.0-rc2.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/2f0317f12d54d6c10096ba1dbae69156/tink-1.3.0-rc2.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/30e249a224943a72b9bb98ea3739ba19/dagger-2.28.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/39c844defa992c5423b6bbc00f155bec/gradle-tooling-extension-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/39c844defa992c5423b6bbc00f155bec/gradle-tooling-extension-impl.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/3c88c9a575dfd25a450a922923ed92a4/proj.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/3c88c9a575dfd25a450a922923ed92a4/proj.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/3ce48b986f747c33e93a855d8cb49b18/asm-commons-9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/3dc857041979abcf4ca43a23ce5eb405/grpc-protobuf-1.21.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/3dddb383820b2a13f22ffb6aa252c045/jackson-annotations-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/3dddb383820b2a13f22ffb6aa252c045/jackson-annotations-2.11.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/403bbea9c1aea209da6486d6a4794bea/ion-java-1.8.2-4.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/44d9add6ae44f72b0df99d1647e2284d/lint-model-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/47dce9875071620bf393b7936dc52b01/netty-transport-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/47dce9875071620bf393b7936dc52b01/netty-transport-4.1.34.Final.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/47dce9875071620bf393b7936dc52b01/netty-transport-4.1.34.Final.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/4bb8066d520a40a023cb9e61b9104da3/netty-resolver-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/4e1736ea65083c7a3d98f54f5e70bb8b/fastutil-8.4.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/4e1736ea65083c7a3d98f54f5e70bb8b/fastutil-8.4.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/521bf0fd610a46afa47497ee678602be/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/521bf0fd610a46afa47497ee678602be/slf4j-api-1.7.30.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/526e298565db457576294923eed915c1/lint-typedef-remover-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5325f0defcd118ed046cfcb51e8dbbc3/istack-commons-runtime-3.0.8.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/54e73b8d48f7416546a83398fedf5447/asm-util-9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/54e73b8d48f7416546a83398fedf5447/asm-util-9.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/54e73b8d48f7416546a83398fedf5447/asm-util-9.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/584b81b3d23e6ad62c7981cbb3ea5289/apksig-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5c2f32c2cad70b788721979c9323cb0d/jimfs-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5c2f32c2cad70b788721979c9323cb0d/jimfs-1.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5d92cc5ddcb01e675d1a9eae3bb6abda/init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5d92cc5ddcb01e675d1a9eae3bb6abda/init.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5d92cc5ddcb01e675d1a9eae3bb6abda/init.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5e09b9ab66b2bcc183a5273053f94a39/commons-logging-1.2.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5eaa2ba2ec3d9c3c6386077a0a570483/cp_proj.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/5eaa2ba2ec3d9c3c6386077a0a570483/cp_proj.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6151f3d09c6c4d72c70f3c43d9a36c44/xml-apis-1.4.01.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6151f3d09c6c4d72c70f3c43d9a36c44/xml-apis-1.4.01.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/651e1d3a88c970b5f23f67d6d220a626/error_prone_annotations-2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/651e1d3a88c970b5f23f67d6d220a626/error_prone_annotations-2.3.4.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/65f2612f3c276cd6f6f639b1b6a4063c/auto-value-annotations-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6702afcb88d02be0686879171760a5ba/sdklib-30.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/675b24c8c3e4f6ee41fd0e1508fd0ad4/kotlin-util-io-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/675b24c8c3e4f6ee41fd0e1508fd0ad4/kotlin-util-io-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/675b24c8c3e4f6ee41fd0e1508fd0ad4/kotlin-util-io-1.6.10.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/677aa6be86f9c48778753b58970dfeef/commons-compress-1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6964178500bb095480d1d08c6da1a93c/aaptcompiler-7.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6bceef07f5aa69eda8f614baf5317c02/grpc-protobuf-lite-1.21.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6bceef07f5aa69eda8f614baf5317c02/grpc-protobuf-lite-1.21.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/6e220352c45e64f73bd308eed14f4c92/android-test-plugin-host-coverage-proto-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7167d598177d65ef848716abb4eb7660/jackson-databind-2.11.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7167d598177d65ef848716abb4eb7660/jackson-databind-2.11.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/724e16a18e6dfdc0d04b9c05a5d46cb4/grpc-core-1.21.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/724e16a18e6dfdc0d04b9c05a5d46cb4/grpc-core-1.21.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7281d52bd6b6a108c8fb61b169e29d10/util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7281d52bd6b6a108c8fb61b169e29d10/util.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/729d85ec9b942633942724975de87255/FastInfoset-1.2.16.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/72f7d9b354c207e0e3fae1dfed18037a/jopt-simple-4.9.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/73b1d32e1804d510d969358800483f12/juniversalchardet-1.0.3.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/775b28d78c905e8a1c97eb1017d6abba/kotlin-gradle-gradle-tooling.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/775b28d78c905e8a1c97eb1017d6abba/kotlin-gradle-gradle-tooling.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/77c5a1c2daa60ba26263de2d149f5c8b/jackson-dataformat-xml-2.11.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/77c5a1c2daa60ba26263de2d149f5c8b/jackson-dataformat-xml-2.11.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/794bdfa606b5c3c4426c8eec96e491b5/txw2-2.3.2.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/79fad4dc54ccec265ff4ec5d21754787/protobuf-java-util-3.10.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7b8009aaeccc53a4082ad6e56ee7e7b2/jetifier-core-1.0.0-beta09.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7d2d6b1c9bdc0b691f5ad1dee3d2fe59/builder-model-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7d2d6b1c9bdc0b691f5ad1dee3d2fe59/builder-model-7.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7d2d6b1c9bdc0b691f5ad1dee3d2fe59/builder-model-7.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7f151b038238f9ad481922269aedb6df/init.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/7f4ed3e41f578433959f94c32e45788f/woodstox-core-6.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/80951804e155aaabc711987c4e598a70/netty-codec-4.1.34.Final.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/80951804e155aaabc711987c4e598a70/netty-codec-4.1.34.Final.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/80cbbe528229d9eebf24c2ac7445e79d/checker-qual-3.5.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/830272e88666c949a6fc98875d077106/javawriter-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/871d772fba0aaec267ea270372999e2f/layoutlib-api-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/871d772fba0aaec267ea270372999e2f/layoutlib-api-30.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/87e92a5b73355b32dc78999083800c27/httpmime-4.5.6.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/8910a72e9b994f19bf16944eb8754905/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/8910a72e9b994f19bf16944eb8754905/cp_init.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/8910a72e9b994f19bf16944eb8754905/cp_init.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/894179bacc81470fc0ccc45ebcd25c75/dvlib-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/91ce511005a53d0b6ac91a90814fe8cf/gradle-tooling-extension-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/946733b8eaf1929045c6772c1d326ca3/init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/946733b8eaf1929045c6772c1d326ca3/init.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/946733b8eaf1929045c6772c1d326ca3/init.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/94e6bb4870f959599bbecec618f9e222/android-test-plugin-host-retention-proto-30.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9541310696edcb1a1dd2e4356bd40275/kotlin-compiler-plugins-lombok.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/966f28fa2fecd59b0a837dc305d65df3/android-extensions-ide.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/966f28fa2fecd59b0a837dc305d65df3/android-extensions-ide.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9a9f05d9cf8cda04865b88b8ebc5c85d/httpclient-4.5.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9a9f05d9cf8cda04865b88b8ebc5c85d/httpclient-4.5.9.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9b53071e79d22da3aff4bf175cb68d9f/bcpkix-jdk15on-1.56.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9c1b8faf32a7075e12a82c66ea5b9182/kotlin-scripting-compiler-impl-embeddable-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9c1b8faf32a7075e12a82c66ea5b9182/kotlin-scripting-compiler-impl-embeddable-1.6.10.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/9ceac8e5c9f891669b453b410b46be16/kotlin-gradle-plugin-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a0a7bcc2dcd6bde9fc0578c23aa2127c/kotlin-stdlib-jdk8-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a0a7bcc2dcd6bde9fc0578c23aa2127c/kotlin-stdlib-jdk8-1.5.31.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a0a7bcc2dcd6bde9fc0578c23aa2127c/kotlin-stdlib-jdk8-1.5.31.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a0d5f16a11fd57dbe3063721d9edff74/kxml2-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a2ade25022592dc42c8acdc44b020ded/opencensus-contrib-grpc-metrics-0.21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a2ade25022592dc42c8acdc44b020ded/opencensus-contrib-grpc-metrics-0.21.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a2ade25022592dc42c8acdc44b020ded/opencensus-contrib-grpc-metrics-0.21.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a48d923bb14c3e6eff1077f51f7321d6/kotlin-build-common-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a48d923bb14c3e6eff1077f51f7321d6/kotlin-build-common-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a48d923bb14c3e6eff1077f51f7321d6/kotlin-build-common-1.6.10.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a78fa345e4e343045db3ff99fb81c3ce/annotations-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a7d0662121dcef9ebf3bf9eb9b29d261/kotlin-stdlib-jdk7-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a7d0662121dcef9ebf3bf9eb9b29d261/kotlin-stdlib-jdk7-1.5.31.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a7fff69ee2467d603cd5da1c64524c54/proto-google-common-protos-1.12.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a87b682f0ace12d527bf5b50c15cf29f/gradle-api-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a90ae5e1e208c0df7430112a4f425745/netty-codec-http2-4.1.34.Final.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a9fa971aa60c3959e21be477e853b9dc/android-test-plugin-result-listener-gradle-proto-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/a9fa971aa60c3959e21be477e853b9dc/android-test-plugin-result-listener-gradle-proto-30.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ab71b5e8436d57b48ffb3b34a946319e/grpc-context-1.21.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ab71b5e8436d57b48ffb3b34a946319e/grpc-context-1.21.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/aee336c9298467d4bd6acab50799263a/kotlin-klib-commonizer-api-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b07b482f24bc9d8882a2d95591d831c9/jaxb-runtime-2.3.2.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b362206f9098f4ac79777dd15f691243/kotlin-reflect-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b362206f9098f4ac79777dd15f691243/kotlin-reflect-1.5.31.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b3929c037c10ab785ac7a1f9a14eb917/sdk-common-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b3a962082073cced9917df84ab282a93/netty-codec-socks-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b48a4843f7c3909ebef226e872235464/core-proto-0.0.8-alpha07.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b4d6398698a6fe9ad6793027681f4c01/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b4d6398698a6fe9ad6793027681f4c01/cp_init.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b4f720fe3feb489e3733d4b9d127ae01/kotlin-compiler-plugins-annotation-based-compiler-support.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b5232051ea329be7b771d8ae4fa4d55c/init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b57b2368343ebeb0674a8f2ab7dc7692/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b57b2368343ebeb0674a8f2ab7dc7692/commons-codec-1.11.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b6035523d1fff9fc92178f33e6af225c/netty-common-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b6035523d1fff9fc92178f33e6af225c/netty-common-4.1.34.Final.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b6035523d1fff9fc92178f33e6af225c/netty-common-4.1.34.Final.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b6143907e3c9f983d3c3d48607f79538/repository-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b6143907e3c9f983d3c3d48607f79538/repository-30.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b643bed7440fa143ef889efa33f046cb/external-system-rt.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b6772fef0a763659b964db14d12b4c13/trove4j-1.0.20181211.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b8ab939d466c574d43d516184157c1a4/jna-5.6.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b8ab939d466c574d43d516184157c1a4/jna-5.6.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/b92b7ef76343552aec4f87670954b843/dokka-core-1.4.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/bc9913ed4603ba3b8288e4e34b6562ae/kotlin-project-model-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/bc9dadb6abbeb404cf42e43e8ed1e21b/kotlin-gradle-plugin-api-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/bd11f7c7c770e5e76e535517c4536e31/signflinger-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/bd11f7c7c770e5e76e535517c4536e31/signflinger-7.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/be0bdbd21a3dd6800395bdec302df26c/gson-2.8.6.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c0910a90bb2f99528a6bde5e85bc1548/kotlin-compiler-runner-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c1f9f490fb031e5f4580c497dfc7cba0/failureaccess-1.0.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c32175d8dfef870b48458d7629004ee5/kotlinx-coroutines-core-jvm-1.5.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c38ec3436cabb8a7b146a59ed281dfb2/animal-sniffer-annotations-1.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c38ec3436cabb8a7b146a59ed281dfb2/animal-sniffer-annotations-1.17.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c46ea843f4b4d3bec1be42a7580dfc68/kotlin-stdlib-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c5a2f36599581c98d175d81b7623125f/netty-handler-proxy-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c7aa4f70b04dbe8f55ffedd195a50c0e/apkzlib-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c7aa4f70b04dbe8f55ffedd195a50c0e/apkzlib-7.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/c95b496ece1b1ce16565438797b4fecf/javax.activation-1.2.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ca0b621694ef625ac565433f9de7b932/opencensus-api-0.21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ca0b621694ef625ac565433f9de7b932/opencensus-api-0.21.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ca29b354d8368f0fe5c496ffd4c4724a/cp_init.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ca29b354d8368f0fe5c496ffd4c4724a/cp_init.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/cda0514df8fcb77875f3982f89e2ec1f/bundletool-1.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/cda0514df8fcb77875f3982f89e2ec1f/bundletool-1.8.2.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/cda0514df8fcb77875f3982f89e2ec1f/bundletool-1.8.2.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/cf1c08c25cedd8bcdb0926adea72a164/kotlin-compiler-embeddable-1.6.10.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/cf6391508d9631dcb9eb297dc0dfe31c/jsr305-3.0.2.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/cf6391508d9631dcb9eb297dc0dfe31c/jsr305-3.0.2.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d1a897a2e67d39641611b124584bc62d/builder-test-api-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d1a897a2e67d39641611b124584bc62d/builder-test-api-7.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d43cc489df4884e4b33db11bcda36c5a/android-device-provider-gradle-proto-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d729e507865a44c49cb7badb00e824ce/annotations-13.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d729e507865a44c49cb7badb00e824ce/annotations-13.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d85813573f4f569e9ba53ca70f4c4e55/databinding-common-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/d85813573f4f569e9ba53ca70f4c4e55/databinding-common-7.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/dbed01d1fd73d06bdde283dd80e7cea7/android-device-provider-ddmlib-proto-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/dcdc4042d4a3bc0d6686a77dc7e6ae14/protos-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/dfeee4649d07dca867948cd4041e2304/builder-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/dfeee4649d07dca867948cd4041e2304/builder-7.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e1d63b6642bac1599bc02287a5c960f8/bcprov-jdk15on-1.56.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e29059d79236b0371389edac1eb50615/crash-30.2.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e520f1e0ae354d581b2455d260e2150c/gradle-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e520f1e0ae354d581b2455d260e2150c/gradle-7.2.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e960342e2900a07e40eeb3ee57a0a962/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e96e53fd06cd6605bb8f8aace88445f1/proj.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e96e53fd06cd6605bb8f8aace88445f1/proj.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e96e53fd06cd6605bb8f8aace88445f1/proj.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e97f78fe9d8fd7a8f5e31354e8a33951/android.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/e9f0ee1f0371c5edf4413b99206e250c/android-test-plugin-host-additional-test-output-proto-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/eae5cf363623aac3a739a905baa81a34/protobuf-java-3.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/f23b2cdb9cbc9bf3bca33d26dc258e5a/netty-buffer-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/f35da6611ad57dc8c9e8f46ca5be8b6b/javapoet-1.10.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/f7f415de7300f408173f199fd746906d/jose4j-0.7.0.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/f7f415de7300f408173f199fd746906d/jose4j-0.7.0.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fa260bbee5403c2d84ff3bd9be9c4e62/httpcore-4.4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fa260bbee5403c2d84ff3bd9be9c4e62/httpcore-4.4.11.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fa30cb47dc1fbd9f7bc80e1aed5e84b3/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fafcc25beeb3055ef1182ced7aba5158/kotlin-annotation-processing-gradle-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fafcc25beeb3055ef1182ced7aba5158/kotlin-annotation-processing-gradle-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fce938e8969260618a73a2de7eabbc04/kotlin-tooling-metadata-1.6.10.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fcf73eb9ca576fbe7fd2d462f82479ea/jackson-core-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fcf73eb9ca576fbe7fd2d462f82479ea/jackson-core-2.11.1.jar.lock.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fd0d12dd1fe96e3e10662983ae4aee8a/stax-ex-1.8.1.jar.receipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/fe3ab80ef45df84026751954aad4d1b6/kotlin-daemon-client-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/ff2103076335203fac6e66857d3538df/manifest-merger-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_2de6753a4ca32b145227af4502eca500/android-base-common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_4cbbf1744d91ce8a5dc8b2d0fd171c15/xstream-1.4.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_4ec1058d7e539b56547c30c4a358851f/repository.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_65977cdd6af8b02edc5b79242c1de3fe/android-extensions-ide.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_6966aa148c83ab94f5ee57ca764c6f01/guava-30.1-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_7558d8bbfad6ff5c7051e9a728eb64c6/gradle-api-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_773e17842ee70f4359fe4dfc477d33c7/gradle-tooling-extension-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_b6ab936e1ff2c411ee4cb89052b08005/annotations.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_d1e5621a0630712166c8439fdd9e4f49/android.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_db511ee0b21132c8516937916e4d2a7e/groovy-2.5.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_e2a7bf31de5bc624a0423a142fed7d17/jna-platform.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/jars-9/o_f5775d4d1a2787085f99b911988cd5b3/kotlin-gradle-gradle-tooling.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/journal-1/file-access.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.2.1/11a1cbee1a967c4db030fd5fbf71656ca4dd86c3/databinding-common-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-compiler-common/7.2.1/da4dab7f680291fdcba41837c73ca4403afebf60/databinding-compiler-common-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/7.2.1/64ab5b22730b44026db99a1403ceec3275468edd/baseLibrary-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/7.2.1/8d8fa61045e72410fdf2ba64cd90b05aca6e95bc/baseLibrary-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/crash/30.2.1/cdfb6f6806e57cfa3f70ef5ec9a7f94cc625f100/crash-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/30.2.1/7a4b54b151a2def037f1c384de4cb4af9c5ecdb4/protos-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/30.2.1/d3fa14db520e40e4f9c10fc8f317f93b1a1fb25b/protos-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/30.2.1/b98e20cd7007d4cc78cf74da4ea73f16398c6bed/shared-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/30.2.1/d890f2f96f05c238ba92d607d8162fc7b28e3508/tracker-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-core/1.0.0-beta09/6393d821ad5c2917a0182717ae8b8eee72c667de/jetifier-core-1.0.0-beta09.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-core/1.0.0-beta09/c513281b5616c35f9e3316a7dbf5553e9b4a3879/jetifier-core-1.0.0-beta09-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-processor/1.0.0-beta09/31bb732d1131d8e8eb85ad98f93e89adadd9f4e3/jetifier-processor-1.0.0-beta09-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build.jetifier/jetifier-processor/1.0.0-beta09/c5b7c0ddbdfdeb69b842bcd9672f88bae14238c7/jetifier-processor-1.0.0-beta09.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/aapt2-proto/7.2.1-7984345/97d18b96470bc5515fe5e9917a8ad5714bc3b1c5/aapt2-proto-7.2.1-7984345-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/aaptcompiler/7.2.1/75b8dda56a817756f9c2102d30b9f7bcd3b4bdae/aaptcompiler-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/7.2.1/735df93a1e8f80050ce1e23caf72edd493273970/apksig-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/apksig/7.2.1/b6de8e6311255e50a8a1056fec3542f8672389b3/apksig-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/7.2.1/3571351f11874f310e060da4211a48e7b87622e/apkzlib-7.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/apkzlib/7.2.1/b4fed8bedd837d59361b4b050e26df5c46280dc7/apkzlib-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/7.2.1/8a9c1148b53c44e46d99efc7256e36710ccd2c3f/builder-model-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/7.2.1/81659962bfef1ef7418aab03f37ee7cfc97305e5/builder-test-api-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/7.2.1/edf4f2dd46860a9d341c1cfc9c2b5be0539261e8/builder-7.2.1.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/7.2.1/fefb93cdc4d8b3916d90c8ad892ab7341eeca3f4/builder-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/7.2.1/1c2fdf9606aadaa7f7c837db74b99fa781d84a8f/gradle-api-7.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/7.2.1/73efd1217de371efd70c959e4ef6dcbb84e25fe4/gradle-api-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/7.2.1/dcb374dae9c2119c70618ac485aad7b33cd8aada/gradle-api-7.2.1.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/7.2.1/656e1e9c7756e2a32ae4105320fdaed0b5d993b0/gradle-7.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/7.2.1/7daf5c3d8efddd5710872d8baa8c389509ca48d1/gradle-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/30.2.1/1756d0ad1b6a704a32f73a09f3fa1836243a1586/manifest-merger-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/30.2.1/7f22a0525074e2ba1979f46d55558bf55e705c01/manifest-merger-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.build/transform-api/2.0.0-deprecated-use-gradle-api/e4075c49e16e086140fe40eea56b2de7516874ee/transform-api-2.0.0-deprecated-use-gradle-api-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/30.2.1/934979b6078a545918147efba214fc89e99557ab/ddmlib-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/30.2.1/8c18b380cd6a731b8d4ac2ce0be3baa61296c023/layoutlib-api-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/30.2.1/f2b86f9214ba98e5b44a75b6863e8548885e3634/layoutlib-api-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-model/30.2.1/28f76450084992469cd2bd10b37409caed27e337/lint-model-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-model/30.2.1/4b6bc3603507b9ed592b99b7c4d26d4f675fb1fe/lint-model-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-typedef-remover/30.2.1/89c531f25d0afb594fa3908bbd170c89fd8e1756/lint-typedef-remover-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-device-provider-ddmlib-proto/30.2.1/784bc3e656b36df405944fe139612f122ae82a84/android-device-provider-ddmlib-proto-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-device-provider-gradle-proto/30.2.1/23b80df27b88dc4d440559a33e258b4215ac334d/android-device-provider-gradle-proto-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-test-plugin-host-additional-test-output-proto/30.2.1/89e8355f28fb006d3a147e0698c0a1e860aa996e/android-test-plugin-host-additional-test-output-proto-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-test-plugin-host-coverage-proto/30.2.1/2cb65b6d24b0e0a5a589c128c8a24c947b621e65/android-test-plugin-host-coverage-proto-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-test-plugin-host-coverage-proto/30.2.1/3d57990741e6547c65d71aa80a34ecf127ffeb98/android-test-plugin-host-coverage-proto-30.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-test-plugin-host-retention-proto/30.2.1/75038dc9d1edb184f3df6df7b69939fc9cc79324/android-test-plugin-host-retention-proto-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools.utp/android-test-plugin-result-listener-gradle-proto/30.2.1/645f0773516f272a7a7133f546687e8c1fecfca0/android-test-plugin-result-listener-gradle-proto-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools/common/30.2.1/6b149f62a91c31e10b572323f7d4cdca084d1736/common-30.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools/common/30.2.1/8a467235d08dd4caf46a91edeb1a822d43957694/common-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools/repository/30.2.1/bc22606d2fc0e0d840cb906c3ec90d14e4f377cd/repository-30.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools/repository/30.2.1/e83cc331e59cdc2304f4838c9e8a4003333e5b6e/repository-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/30.2.1/9822a484c01b787c2b2b37d93bf4cc576e26a553/sdk-common-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/30.2.1/32688a21ceda64a5eca2575a454420b349402da3/sdklib-30.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android/signflinger/7.2.1/b4903e77c559a774d9799531c1ee0f03bed6b706/signflinger-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.android/zipflinger/7.2.1/5b710096954538b62b52500e6b8b8c7c4d3be4e0/zipflinger-7.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.11.1/bdc322415a167c6b90f77fef535f24a61abefb67/jackson-module-jaxb-annotations-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.fasterxml.jackson/jackson-base/2.11.1/3f035aea01d74bae7a0bdb90064095454eca3730/jackson-base-2.11.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.github.gundy/semver4j/0.16.4/5f35944750b5842c3c1e650b9385c41e7d892502/semver4j-0.16.4-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/1b9adea7bbe0b251818f42fde0bd2988d7e5f20a/gson-2.8.6-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.crypto.tink/tink/1.3.0-rc2/4802869fddd206f71fb37f68b87c0719b45d9b9/tink-1.3.0-rc2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.crypto.tink/tink/1.3.0-rc2/5a666d168e1b821be33321a858f90baa5ab4b6cc/tink-1.3.0-rc2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.28.3/6a11b6b6db0c740dbd150e11f54c6f219fdc2891/dagger-2.28.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_parent/2.3.2/ea30b94538922c99fb231a2c9859790831eb0fb0/error_prone_parent-2.3.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.flatbuffers/flatbuffers-java/1.12.0/1bb8c570cde20d1f5e5939f160cc56d8edeef812/flatbuffers-java-1.12.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.guava/guava-parent/26.0-android/a2c0df489614352b7e8e503e274bd1dee5c42a64/guava-parent-26.0-android.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1-jre/8ae9687f4800d716821aad9784bd4769e9e566a4/guava-30.1-jre-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/1b77ba79f9b2b7dfd4e15ea7bb0d568d5eb9cb8d/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/47e0dd93285dcc6b33181713bc7e8aed66742964/j2objc-annotations-1.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.10.0/41a9d1aff6f67dcc3c178505d21ed07d78ac9f1b/protobuf-java-util-3.10.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.10.0/dd9dbd5ae7e5c6978bb725c387aaeb2dc07dfddb/protobuf-java-util-3.10.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.10.0/3ee94b1a2c1a74d9a27196e39c4bcf8dd0101e70/protobuf-java-3.10.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.10.0/db94f4481e9ef506c7dfdbb0d059892aa283ab1a/protobuf-java-3.10.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-parent/3.10.0/92e4373db52230866c0352b343e3f83f25812c77/protobuf-parent-3.10.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.google.testing.platform/core-proto/0.0.8-alpha07/274e6099a269cece9350030d5ae597b95144c4e3/core-proto-0.0.8-alpha07-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1/19c6d8dee6803c520d855ff7e8a8c3d97f1271ec/json-simple-1.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/be6da8320adedafc712d645ddaaad00357b55408/juniversalchardet-1.0.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.10.0/59bdf07dc7cf5325a95ddb8366f673df0d127bc2/javapoet-1.10.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/1b2a0925ff06220c0261b6fd468183cd9e9a9a47/javawriter-2.5.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/3.0.8/d6a97364045aa6b99bf2d3c566a3f98599c2d296/istack-commons-runtime-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/44b9477418d2942d45550f7e7c66c16262062d0e/commons-codec-1.10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/de.undercouch/gradle-download-task/4.1.1/24fd2264b0c7402b1c5e4bd3d9c2704a8cc8c758/gradle-download-task-4.1.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.21.1/44d75240a11d4631f557604c6659596ab8e519e0/grpc-core-1.21.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty/1.21.1/efbf31e5fc35f2a920871386b132869c1f2ec883/grpc-netty-1.21.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.21.1/917f3b38b16e3ca4d638525958979b1a49d976b4/grpc-protobuf-lite-1.21.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.21.1/d69627fccd8816f2f65b32b8ae6f169b7cdfb197/grpc-protobuf-1.21.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.21.1/9173e9c342d0446d1dbc824ac9ba45f4bb9df38a/grpc-stub-1.21.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.34.Final/a3ca3438b1e607a25f913e44f8f8bdbb2c5b0d9d/netty-buffer-4.1.34.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.34.Final/7f628ef0c77449ec695649617b2c492dc5d7ffea/netty-codec-http-4.1.34.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.34.Final/528789e98eef519960a56e44569ecb2260782fd7/netty-resolver-4.1.34.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.21.0/f07d3a325f1fe69ee40d6b409086964edfef4e69/opencensus-contrib-grpc-metrics-0.21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.4.0/15db1af12808dde98c2c8b7c0712bf6b8beef0cb/fastutil-8.4.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.9/d965219b87f79e81b07116d451e684ab2f3acc27/jopt-simple-4.9-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/309cd2cff7260e465792fda3dcbb063b730d8050/kxml2-2.3.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.9/a25c1be5ce99d0ce99aa43eb982868c796dd0775/httpclient-4.5.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcomponents-client/4.5.6/135a0a91d1ad2909b08196580ef2c363932bb87e/httpcomponents-client-4.5.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.6/b9dcad423fba1978379049cf0cf3cf535c667af7/httpmime-4.5.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.6/f349336722665ba37bcc67d95efb5f2926b5ebc/httpmime-4.5.6-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache/apache/15/95c70374817194cabfeec410fe70c3a6b832bafe/apache-15.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.56/118b4633c59394749b2b2f278138beb31c930663/bcpkix-jdk15on-1.56-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.56/2e2e47a19e0c53e7d204a6ad071c9e64c7c4c43f/bcpkix-jdk15on-1.56.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.56/93c7b191596378df51c31b7d8717f71b0aeee53c/bcprov-jdk15on-1.56-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.codehaus.mojo/mojo-parent/40/d2fa7c95447827e9bbcb8c60bd9484c51202732e/mojo-parent-40.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-bom/2.3.2/c7cd28b5d3871feba8cebf6d4587043fb0d6fd0a/jaxb-bom-2.3.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/9c2033de9f6f23ca45b77496e1d260875c93c532/jaxb-runtime-2.3.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.dokka/dokka-core/1.4.32/91e49f5cf90a9a6fd3eb23954a3c330e8bbdcc14/dokka-core-1.4.32-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/fff84a7f9b3215e7ef684672d0adf2853e20040a/trove4j-1.0.20181211-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin.android/org.jetbrains.kotlin.android.gradle.plugin/1.6.10/4074e1a92d4fae8d53771d7a0c69402e014f8bdd/org.jetbrains.kotlin.android.gradle.plugin-1.6.10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.6.10/89e97b2b2c78171f8026f466e1810852540e993e/kotlin-android-extensions-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.6.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-annotation-processing-gradle-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.6.10/61f0032e24219333ba2e693f8ad3d6a16926a370/kotlin-annotation-processing-gradle-1.6.10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.6.10/e4f87d7008e67ed12c44b0c2eeca59a038251b9f/kotlin-annotation-processing-gradle-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.6.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-compiler-embeddable-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.6.10/f16ce9b6e3715c8b677d19a4aa52030335ee979f/kotlin-compiler-runner-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.6.10/2c8ba59185f5857a29833856d5e03e03755731a7/kotlin-gradle-plugin-api-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.6.10/509dc9830a6c2f9cd395c0aff195f80309e76260/kotlin-gradle-plugin-api-1.6.10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.6.10/819d971f92cdee0d333960d2b992d854cb4c87e6/kotlin-gradle-plugin-api-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.6.10/bde5127b00305334b681ca57433c849f38669fc1/kotlin-gradle-plugin-model-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.6.10/17584588cf4c6a08df474a905a02bfc5f43584ec/kotlin-gradle-plugin-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-klib-commonizer-api/1.6.10/679808893493cfea60a643dc559b806b1db50983/kotlin-klib-commonizer-api-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-project-model/1.6.10/972a5120ed7a9999a027c795ba46ad7e61a3841e/kotlin-project-model-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.31/e49cc86f69a7aa7c2f0e6dae396c9cd35a0ad7a4/kotlin-reflect-1.5.31-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/1.6.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-scripting-compiler-embeddable-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable/1.6.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-scripting-compiler-impl-embeddable-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.6.10/dbe683647dcb04cda92fe4423acb741a2f144a69/kotlin-scripting-jvm-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/6f778763702ed6371c2cab78b3424ff2188a7283/kotlin-stdlib-common-1.5.31.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.31/171265ccd1f7a4307c3cb8eedd9115e662013190/kotlin-stdlib-jdk8-1.5.31-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-metadata/1.6.10/504add41f79c32c9d559860400b4dcc0edaffd5c/kotlin-tooling-metadata-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-metadata/1.6.10/fd32d4d30d1a7ccdc9c44f4a463d7c97ef71e3f0/kotlin-tooling-metadata-1.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-util-klib/1.6.10/ae0469124bee67924be894ceaf24cec9cd168984/kotlin-util-klib-1.6.10-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.0/d8cebccdcddd029022aa8646a5a953ff88b13ac8/kotlinx-coroutines-core-jvm-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.jetbrains/markdown-jvm/0.2.1/58dbe64040315d8fb1ad177f91991bb1302c7794/markdown-jvm-0.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.1/296a49fa21d815fc92eec1007ea2708983e8df2c/asm-analysis-9.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.1/87a45a18693ec2d1eed3beb40ac47f82feb7fb27/asm-commons-9.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.1/ef07227f641685b6473fd0fbb4931afd6539df1a/asm-tree-9.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.1/d09e58920a332647ed8c65ad6ea2e7692e449f40/asm-util-9.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/3fb15dd478bf8dcb039aa0d035f9fff9e4229c61/asm-9.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2/ow2/1.5/d8edc69335f4d9f95f511716fb689c86fb0ebaae/ow2-1.5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/2013960e5ee7f712d8fa6f2e618a6ff2e8d98a9/slf4j-api-1.7.30.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-lite-metadata/0.1.0-rc2/d574cea23842b0e6d2a016a2e24ab608980cbb96/tensorflow-lite-metadata-0.1.0-rc2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.android.tools.build/transform-api/2.0.0-deprecated-use-gradle-api/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.android.tools.utp/android-device-provider-gradle-proto/30.2.1/11cd36a7dcab7d14d0c14c5e6c7582e3/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.fasterxml.jackson.core/jackson-databind/2.11.1/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.fasterxml.jackson/jackson-bom/2.11.1/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.github.gundy/semver4j/0.16.4/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.google.auto.value/auto-value-annotations/1.6.2/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.google.code.gson/gson/2.8.6/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.google.guava/guava-parent/29.0-jre/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.google.guava/guava/29.0-jre/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.google.protobuf/protobuf-parent/3.10.0/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/com.squareup/javawriter/2.5.0/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/io.grpc/grpc-context/1.21.1/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/io.netty/netty-codec-socks/4.1.34.Final/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/io.netty/netty-codec/4.1.34.Final/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/io.netty/netty-handler-proxy/4.1.34.Final/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/io.netty/netty-parent/4.1.34.Final/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/net.java.dev.jna/jna-platform/5.6.0/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.apache.httpcomponents/httpcomponents-core/4.4.11/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.apache.httpcomponents/httpcomponents-parent/10/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.apache/apache/13/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.bitbucket.b_c/jose4j/0.7.0/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.codehaus.woodstox/stax2-api/4.2.1/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.eclipse.ee4j/project/1.0.2/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.glassfish.jaxb/txw2/2.3.2/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable/1.6.10/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.jetbrains.kotlin/kotlin-scripting-jvm/1.6.10/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.31/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.jetbrains.kotlin/kotlin-util-io/1.6.10/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.jetbrains/annotations/13.0/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.jsoup/jsoup/1.13.1/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/org.ow2/ow2/1.5/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/descriptors/xerces/xercesImpl/2.12.0/671a8ecc284f9e9f4d35b614eb5de66e/descriptor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/caches/modules-2/metadata-2.97/module-metadata.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/daemon/7.3.3/daemon-1168.out.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/daemon/7.3.3/daemon-9552.out.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/kotlin-profile/2022-08-06-16-19-10-731.profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/kotlin-profile/2022-08-06-16-19-34-240.profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/init.d/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/fastutil-8.5.2-min.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/file-events-linux-amd64-0.22-milestone-21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/gradle-file-watching-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/gradle-resources-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/kotlin-compiler-embeddable-1.5.31-patched-for-gradle-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/kotlin-sam-with-receiver-compiler-plugin-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/kotlin-scripting-common-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/kotlin-scripting-compiler-impl-embeddable-1.5.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/native-platform-windows-amd64-0.22-milestone-21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/native-platform-windows-amd64-min-0.22-milestone-21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/native-platform-windows-i386-min-0.22-milestone-21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/aws-java-sdk-kms-1.11.948.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/dd-plist-1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/gradle-enterprise-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/gradle-kotlin-dsl-provider-plugins-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/gradle-resources-gcs-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/gradle-tooling-api-builders-7.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/jmespath-java-1.11.948.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/lib/plugins/plexus-sec-dispatcher-1.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/NASA_Picture_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/NASA_Picture_App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/NASA_Picture_App.app.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/demo/nasapictureapp/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/demo/nasapictureapp/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/demo/nasapictureapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/nasapictureapp/ui/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +577,31 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NASA Picture App" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Data Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -41,25 +623,47 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2CyYTOEZQtItlJNbaPWIOdkueHC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NASAPictureApp\app\src\main\res\drawable" />
+      <recent name="D:\NASAPictureApp\app\sampledata" />
+      <recent name="D:\NASAPictureApp\app\src\main\assets" />
+      <recent name="D:\NASAPictureApp\app\src\main" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.demo.nasapictureapp.ui.activity" />
+      <recent name="com.demo.nasapictureapp.ui" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.demo.nasapictureapp" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="NASA_Picture_App.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -140,7 +744,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659778353481</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Init Commit">
+      <created>1659778505775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659778505775</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Init Commit">
+      <created>1659778662468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659778662468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,8 +771,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Init Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Init Commit" />
   </component>
